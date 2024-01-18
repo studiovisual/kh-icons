@@ -361,6 +361,8 @@ var _barCode = _interopRequireDefault(require("./solid/bar-code"));
 
 var _interrogation = _interopRequireDefault(require("./solid/interrogation"));
 
+var _x = _interopRequireDefault(require("./solid/x"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -546,7 +548,8 @@ var icons = {
   'shady/reload-ui': _reloadUi["default"],
   'solid/signal': _signal["default"],
   'solid/bar-code': _barCode["default"],
-  'solid/interrogation': _interrogation["default"]
+  'solid/interrogation': _interrogation["default"],
+  'solid/x': _x["default"]
 };
 var iconsByType = {
   "outline": [{
@@ -2142,6 +2145,15 @@ var iconsByType = {
       "width": "24",
       "height": "25",
       "name": "interrogation",
+      "type": "solid"
+    }
+  }, {
+    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"20\" viewBox=\"0 0 21 20\" fill=\"none\"><path d=\"M0.545749 0.757416L8.17105 10.9531L0.49762 19.2425H2.22461L8.94265 11.9849L14.3706 19.2425H20.2476L12.1934 8.47341L19.3357 0.757416H17.6087L11.4217 7.44154L6.42273 0.757416H0.545749ZM3.08537 2.02952H5.78526L17.7076 17.9703H15.0077L3.08537 2.02952Z\" fill=\"#782DC8\"/></svg>",
+    "type": "solid",
+    "metadata": {
+      "width": "24",
+      "height": "25",
+      "name": "x",
       "type": "solid"
     }
   }]
