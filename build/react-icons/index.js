@@ -545,8 +545,8 @@ var icons = {
   'shady/receipt': _receipt["default"],
   'shady/reload-ui': _reloadUi["default"],
   'solid/signal': _signal["default"],
-  'solid/interrogation': _interrogation["default"],
-  'solid/bar-code': _barCode["default"]
+  'solid/bar-code': _barCode["default"],
+  'solid/interrogation': _interrogation["default"]
 };
 var iconsByType = {
   "outline": [{
