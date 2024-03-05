@@ -1,6 +1,6 @@
 {
   "name": "@cyberweb/icons",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Kinghost icons package (SV)",
   "main": "./build/react-icons/index.js",
   "scripts": {
