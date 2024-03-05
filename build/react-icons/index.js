@@ -365,7 +365,7 @@ var _x = _interopRequireDefault(require("./solid/x"));
 
 var _help = _interopRequireDefault(require("./solid/help"));
 
-var _usersThree = _interopRequireDefault(require("./solid/usersThree"));
+var _usersThree = _interopRequireDefault(require("./solid/users-three"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
