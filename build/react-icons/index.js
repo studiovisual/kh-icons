@@ -381,6 +381,8 @@ var _arrowSquare = _interopRequireDefault(require("./solid/arrow-square"));
 
 var _arrowSmallRight = _interopRequireDefault(require("./solid/arrow-small-right"));
 
+var _discount = _interopRequireDefault(require("./solid/discount"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -577,6 +579,7 @@ var icons = {
   'solid/status-down': _statusDown["default"],
   'solid/arrow-square': _arrowSquare["default"],
   'solid/arrow-small-right': _arrowSmallRight["default"],
+  'solid/discount': _discount["default"],
 };
 var iconsByType = {
   "outline": [{
@@ -2253,6 +2256,15 @@ var iconsByType = {
       "width": "6",
       "height": "9",
       "name": "arrow-small-right",
+      "type": "solid"
+    }
+  }, {
+    "source": "<svg width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M11.4052 6.43897L6.75 1.78381C6.68061 1.71387 6.59801 1.65841 6.507 1.62067C6.41598 1.58293 6.31838 1.56365 6.21985 1.56397H1.875C1.77555 1.56397 1.68016 1.60348 1.60984 1.6738C1.53951 1.74413 1.5 1.83951 1.5 1.93897V6.28381C1.49969 6.38234 1.51896 6.47995 1.5567 6.57096C1.59444 6.66197 1.6499 6.74458 1.71985 6.81397L6.375 11.4691C6.44465 11.5388 6.52734 11.594 6.61834 11.6317C6.70935 11.6695 6.80689 11.6889 6.90539 11.6889C7.0039 11.6889 7.10144 11.6695 7.19245 11.6317C7.28345 11.594 7.36614 11.5388 7.43579 11.4691L11.4052 7.49975C11.4748 7.4301 11.5301 7.34742 11.5678 7.25641C11.6055 7.16541 11.6249 7.06787 11.6249 6.96936C11.6249 6.87085 11.6055 6.77331 11.5678 6.68231C11.5301 6.5913 11.4748 6.50862 11.4052 6.43897ZM6.90516 10.939L2.25 6.28381V2.31397H6.21985L10.875 6.96912L6.90516 10.939ZM4.5 4.00147C4.5 4.11272 4.46701 4.22147 4.40521 4.31398C4.3434 4.40648 4.25555 4.47858 4.15276 4.52115C4.04998 4.56373 3.93688 4.57486 3.82777 4.55316C3.71865 4.53146 3.61842 4.47788 3.53976 4.39922C3.46109 4.32055 3.40752 4.22032 3.38581 4.11121C3.36411 4.00209 3.37525 3.88899 3.41782 3.78621C3.4604 3.68343 3.53249 3.59558 3.625 3.53377C3.7175 3.47196 3.82625 3.43897 3.9375 3.43897C4.08669 3.43897 4.22976 3.49823 4.33525 3.60372C4.44074 3.70921 4.5 3.85228 4.5 4.00147Z\" fill=\"currentColor\"/></svg>",
+    "type": "solid",
+    "metadata": {
+      "width": "12",
+      "height": "13",
+      "name": "discount",
       "type": "solid"
     }
   }]
